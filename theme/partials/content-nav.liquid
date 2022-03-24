@@ -1,0 +1,68 @@
+<div class="navigation-content">
+    <div class="filter"></div>
+    <div class="navigation-content__link link__top-menu">
+      <div data-w-id="a60ed3ad-207e-56fd-a36e-b310124ceb45" class="link__top-menu">
+        <a href="{{ links.2f }}" aria-current="page" class="top-menu__link w--current">{{ texts.5227aa30 }}</a>
+      </div>
+      <div class="link__container">
+        <div class="container__col-first">
+          <div data-delay="0" data-hover="true" data-w-id="a60ed3ad-207e-56fd-a36e-b310124ceb4a" class="col-first__dropdown w-dropdown">
+            <div class="dropdown__togle w-dropdown-toggle">
+              <div data-w-id="a60ed3ad-207e-56fd-a36e-b310124ceb4c" class="toggle__link-menu m-s">
+                <a href="{{ links.23 }}" class="link-menu__title">{{ texts.f078abe }}</a>
+                <div class="link-block--secondary__line"></div>
+              </div>
+            </div>
+            <nav class="dropdown-list w-dropdown-list">
+              {%- assign collection = collections.category -%}<div class="w-dyn-list">
+                {%- unless collection.length == 0 -%}<div role="list" class="w-dyn-items">
+                  {%- for item in collection -%}<div role="listitem" class="w-dyn-item">
+                    <div data-w-id="a60ed3ad-207e-56fd-a36e-b310124ceb51" class="col-first__link-menu m-s">
+                      <a href="{{ item.url }}" class="link-menu__title">{{ item.data.title }}</a>
+                      <div class="link-block--secondary__line"></div>
+                    </div>
+                  </div>{%- endfor -%}
+                </div>{%- endunless -%}
+                {%- if collection.length == 0 -%}<div class="w-dyn-empty">
+                  <div>{{ texts.3d503d2b }}</div>
+                </div>{%- endif -%}
+              </div>
+            </nav>
+          </div>
+          <div data-w-id="a60ed3ad-207e-56fd-a36e-b310124ceb59" class="col-first__link-menu m-s">
+            <a href="{{ links.55ce10b8 }}" class="link-menu__title">{{ texts.3d75b67 }}</a>
+            <div class="link-block--secondary__line"></div>
+          </div>
+          <div data-w-id="a60ed3ad-207e-56fd-a36e-b310124ceb5d" class="col-first__link-menu m-s">
+            <a href="{{ links.-54138a5 }}" class="link-menu__title">{{ texts.-b74ed36 }}</a>
+            <div class="link-block--secondary__line"></div>
+          </div>
+          <div data-w-id="a60ed3ad-207e-56fd-a36e-b310124ceb61" class="col-first__link-menu m-s">
+            <a href="{{ links.2c9db82 }}" class="link-menu__title">{{ texts.24fef3 }}</a>
+            <div class="link-block--secondary__line"></div>
+          </div>
+          <div data-w-id="a60ed3ad-207e-56fd-a36e-b310124ceb65" class="col-first__link-menu m-s">
+            <a href="{{ links.4b0e6111 }}" class="link-menu__title">{{ texts.-64104400 }}</a>
+            <div class="link-block--secondary__line"></div>
+          </div>
+        </div>
+        <div class="container__col-first"></div>
+      </div>
+      <div class="link__top-menu">
+        <a data-w-id="a60ed3ad-207e-56fd-a36e-b310124ceb6b" href="{{ links.295c596f }}" class="top-menu__link">{{ texts.4fe094be }}</a>
+        <a data-w-id="a60ed3ad-207e-56fd-a36e-b310124ceb6d" href="{{ links.618fe506 }}" class="top-menu__link">{{ texts.329660ca }}</a>
+        <a data-w-id="a60ed3ad-207e-56fd-a36e-b310124ceb6f" href="{{ links.-1d56f9b0 }}" class="top-menu__link">{{ texts.2a1385a }}</a>
+      </div>
+    </div>
+    <div class="main-navigation-close">
+      <div data-w-id="a60ed3ad-207e-56fd-a36e-b310124ceb76" class="main-navigation__close-burger">
+        <div class="close-burger__line"></div>
+        <div class="close-burger__line-second"></div>
+      </div>
+    </div>
+    <div class="content__social wf-section">
+      <a href="{{ links.23 }}" class="content-social__link w-inline-block"><img src="{{ images.-1f7a768d.url }}" alt="{{ images.-1f7a768d.alt | trim | escape }}" class="footer-image"></a>
+      <a href="{{ links.23 }}" class="content-social__link w-inline-block"><img src="{{ images.36c5e456.url }}" alt="{{ images.36c5e456.alt | trim | escape }}" class="footer-image"></a>
+      <a href="{{ links.23 }}" class="content-social__link w-inline-block"><img src="{{ images.63d3600f.url }}" alt="{{ images.63d3600f.alt | trim | escape }}" class="footer-image"></a>
+    </div>
+  </div>
